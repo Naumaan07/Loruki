@@ -76,6 +76,14 @@ code, pre {
     justify-content: space-between;
 }
 
+.logo a {
+    font-size: 2rem;
+}
+
+.logo a:hover {
+    border: 0;
+}
+
 /* Showcase */
 .showcase {
     height: 400px;
@@ -295,6 +303,10 @@ code, pre {
     margin: 0 10px;
 }
 
+.footer .container nav {
+    margin-left: 3rem;
+}
+
 /* Tablets and under */
 @media(min-width: 768px){
     .showcase-text {
@@ -373,7 +385,7 @@ code, pre {
     }
 
     .showcase-form {
-        max-width: 350px;
+        max-width: 300px;
     }
 
     .navbar {
@@ -404,5 +416,10 @@ code, pre {
     .docs-head .container img,
     .features-head .container img {
         width: 150px;
+    }
+    
+    .footer .social a i {
+        font-size: 1rem;
+        margin: 0 5px;
     }
 }
